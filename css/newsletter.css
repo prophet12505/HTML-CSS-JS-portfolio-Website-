@@ -1,0 +1,105 @@
+/* body */
+body {
+    color: #000000;
+
+}
+
+.groups-banner,.welcome-banner {
+    padding: 0 10%;
+}
+
+
+/* header section */
+header {
+    padding-bottom: 20px;
+    background: url(../img/newsletter/texture_header.jpg) repeat center center fixed;
+    background-size: 1920px;
+    text-shadow: #EEEEEE 0px 0px 2px;
+    color: #EEEEEE;
+    font-family: 'Playfair Display', serif;
+
+}
+
+h2,p {
+    margin: 0;
+}
+
+/* section section  */
+#enter-name-button {
+    cursor: pointer;
+    display: block;
+    /* make it adjustable to change width */
+    font-size: 1.5rem;
+    width: 200px;
+    height: 80px;
+    margin: auto;
+    opacity: 1.0;
+    background-color: #1dc639;
+    border-radius: 6px;
+    color: #000000;
+    border: groove #000000 solid;
+}
+
+#enter-name-button:hover {
+    background-color: #59AFF5;
+}
+
+.groups-banner {
+    background: url(../img/newsletter/texture_groups.jpg) repeat center center fixed;
+    background-size: 1280px;
+    text-shadow: white 0px 0px 2px;
+}
+
+.middle-hr {
+    border-style: none;
+    border-bottom-style: dotted;
+}
+
+.group-tag {
+    padding: 10px;
+    width: 380px;
+    height: 300px;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    margin: 1%;
+    text-align: center;
+
+
+}
+
+.group-tag:hover {
+    opacity: 0.75;
+}
+
+.group-tag img {
+    margin: auto;
+    display: block;
+    width: 350px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.group-tag button {
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    display: block;
+    width: 25%;
+    height: 8%;
+    margin: auto;
+    opacity: 0.7;
+}
+
+.group-tag button:hover {
+    background-color: #000000;
+    color: #EEEEEE;
+}
+
+.group-tag p {
+    margin: 8px;
+}

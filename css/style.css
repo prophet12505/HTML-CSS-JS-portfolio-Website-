@@ -1,0 +1,195 @@
+body {
+    margin: auto;
+    padding: 0;
+    color: #000000;
+    background-color: #EEEEEE;
+    font-family: 'Montserrat', sans-serif, 'Times New Roman';
+    overflow-x: hidden;
+
+}
+
+nav,header,section,footer {
+
+    margin: 0 10%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+/* nav section */
+hr {
+    display: block;
+    width: 100%;
+
+}
+
+nav {
+    background-color: #EEEEEE;
+    overflow: hidden;
+
+    text-align: left;
+}
+
+nav ul {
+
+    margin: 0 auto 10px;
+}
+
+nav ul li {
+    padding: 15px 60px;
+    float: right;
+    list-style: none;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:835px) {
+
+    /* when scale down the screen, let the nav tags align to the left(which looks better) */
+    nav ul li {
+        float: left;
+    }
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #87A2FB;
+    text-align: center;
+
+}
+
+nav ul li:hover {
+    background-color: #6F38C5;
+
+}
+
+/* header section */
+header {
+    text-align: center;
+    font-size: 3rem;
+
+    font-family: 'Verdana', sans-serif, 'Times New Roman';
+}
+
+#clock {
+
+    display: inline-block;
+    color: #59AFF5;
+
+    letter-spacing: 7px;
+    font-size: 1.25rem;
+    padding: 0;
+    margin: 10px 0;
+    height: 3px;
+
+}
+
+
+
+
+/* section section */
+
+
+.banner {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    padding-left: 10%;
+    /*prevent paragraph from overflowing the boundary of the section*/
+}
+
+#name {
+    display: none;
+    font-weight: bold;
+}
+
+
+#section1 {
+    background-color: #FAB340;
+    max-width: 90%;
+}
+
+
+#img-index {
+    object-fit: contain;
+    width: 15%;
+    margin-top: 3%;
+    min-width: 180px;
+    vertical-align: middle;
+    padding-left: 20%;
+    overflow: hidden;
+}
+
+#self-description {
+    margin: 10px auto;
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+
+#self-description p {
+    font-size: 1.2rem;
+}
+
+#section2 {
+    text-align: left;
+}
+
+#section2 h2 {
+    margin: 15px 0 30px;
+}
+
+#section2 img {
+    width: 90px;
+}
+
+#section2 .col {
+    font-size: 0.8rem;
+    width: 15%;
+    display: inline-block;
+
+    margin-right: 80px;
+
+}
+
+#section3 {
+    width: 80%;
+    margin: auto;
+}
+
+
+table {
+    border-collapse: collapse;
+
+}
+
+table th {
+    background-color: brown;
+}
+
+table th,
+td {
+    padding: 20px;
+}
+
+tr:nth-child(odd) {
+    background-color: #87A2FB;
+    color: #EEEEEE;
+}
+
+tr:nth-child(even) {
+    background-color: antiquewhite;
+
+}
+
+tr:hover {
+    background-color: #6F38C5;
+}
+
+
+
+/* footer section */
+footer {
+    font-size: 1rem;
+    text-align: center;
+}
