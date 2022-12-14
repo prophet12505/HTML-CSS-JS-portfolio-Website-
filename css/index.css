@@ -1,0 +1,75 @@
+/* header section  */
+header {
+    background-image: linear-gradient(to left bottom, rgba(16, 221, 54, 0.53), rgba(237, 172, 20, 0.552)), url(../img/index/landscape2.jpg);
+    background-position: bottom;
+    background-size: 1280px;
+    font-size: 1.2rem;
+    padding: 180px 0;
+    color: rgba(255, 255, 255, 0.808);
+    text-shadow: #19a3d663 1px 1px 1px;
+    letter-spacing: 2px;
+}
+
+.headingbox {
+    border: 6px solid rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    padding: 40px;
+}
+
+h1 {
+    margin: 0;
+
+}
+
+/* section section  */
+.banner {
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 255, 0.053), rgba(0, 128, 0, 0.056));
+}
+
+#section1 {
+    background-color: #f9990037;
+    max-width: 90%;
+}
+
+
+#img-index {
+    object-fit: contain;
+    width: 15%;
+    margin-top: 3%;
+    min-width: 180px;
+    vertical-align: middle;
+    padding-left: 20%;
+    overflow: hidden;
+}
+
+#self-description {
+    margin: 10px auto;
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+
+#self-description p {
+    font-size: 1.2rem;
+}
+
+#section2 {
+    text-align: left;
+    max-width: 90%;
+}
+
+#section2 h2 {
+    margin: 15px 0 30px;
+}
+
+#section2 img {
+    width: 90px;
+}
+
+#section2 .col {
+    font-size: 0.8rem;
+    width: 15%;
+    display: inline-block;
+    margin-right: 80px;
+
+}

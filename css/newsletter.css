@@ -14,9 +14,10 @@ header {
     padding-bottom: 20px;
     background: url(../img/newsletter/texture_header.jpg) repeat center center fixed;
     background-size: 1920px;
-    text-shadow: #EEEEEE 0px 0px 2px;
-    color: #EEEEEE;
+    text-shadow: #1008f0a5 1px 1px 1px;
+    color: #e0e718ec;
     font-family: 'Playfair Display', serif;
+    padding-bottom: 20px;
 
 }
 
@@ -25,23 +26,61 @@ h2,p {
 }
 
 /* section section  */
+section{
+    text-align: center;
+}
+.btn-green{
+    opacity: 1.0;
+    background-color: #1dc639;
+    border-radius: 6px;
+}
 #enter-name-button {
     cursor: pointer;
-    display: block;
+    display: inline-block;
     /* make it adjustable to change width */
     font-size: 1.5rem;
     width: 200px;
     height: 80px;
-    margin: auto;
-    opacity: 1.0;
-    background-color: #1dc639;
-    border-radius: 6px;
+
     color: #000000;
     border: groove #000000 solid;
+    
+    transition: all .3s;
+    margin-top: 25px;
+    margin-left: -100px;
+    position:relative;
+    
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .2);
 }
 
 #enter-name-button:hover {
     background-color: #59AFF5;
+    
+    transform: translateY(-3px);
+}
+#enter-name-button:active{
+    
+    transform: translateY(-1px);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .2);
+}
+#enter-name-button::after{
+    content: "";
+    display: inline-block;
+    width:100%;
+    height:100%;
+    position: absolute;
+    border: groove #000000 solid;
+    opacity: 1.0;
+    background-color: #1dc639;
+    border-radius: 6px;
+    top: 0px;
+    left:0px;
+    z-index:-1;
+    transition: all .4s;
+}
+#enter-name-button:hover::after{
+    transform: scale(1.4,1.2);
+    opacity: 0;
 }
 
 .groups-banner {

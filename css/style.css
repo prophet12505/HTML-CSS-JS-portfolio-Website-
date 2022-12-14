@@ -60,36 +60,32 @@ nav ul li a {
 
 nav ul li:hover {
     background-color: #6F38C5;
-
 }
 
 /* header section */
 header {
     text-align: center;
     font-size: 3rem;
-
     font-family: 'Verdana', sans-serif, 'Times New Roman';
+
+
+
 }
 
 #clock {
 
     display: inline-block;
     color: #59AFF5;
-
-    letter-spacing: 7px;
-    font-size: 1.25rem;
+    /* letter-spacing: 5px; */
+    letter-spacing: 5px;
+    font-size: 1rem;
     padding: 0;
-    margin: 10px 0;
+    margin: 15px 0 20px;
     height: 3px;
 
 }
 
-
-
-
 /* section section */
-
-
 .banner {
     width: 100%;
     overflow: hidden;
@@ -104,53 +100,6 @@ header {
 }
 
 
-#section1 {
-    background-color: #FAB340;
-    max-width: 90%;
-}
-
-
-#img-index {
-    object-fit: contain;
-    width: 15%;
-    margin-top: 3%;
-    min-width: 180px;
-    vertical-align: middle;
-    padding-left: 20%;
-    overflow: hidden;
-}
-
-#self-description {
-    margin: 10px auto;
-    float: left;
-    width: 50%;
-    overflow: hidden;
-}
-
-#self-description p {
-    font-size: 1.2rem;
-}
-
-#section2 {
-    text-align: left;
-}
-
-#section2 h2 {
-    margin: 15px 0 30px;
-}
-
-#section2 img {
-    width: 90px;
-}
-
-#section2 .col {
-    font-size: 0.8rem;
-    width: 15%;
-    display: inline-block;
-
-    margin-right: 80px;
-
-}
 
 #section3 {
     width: 80%;
@@ -185,8 +134,6 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #6F38C5;
 }
-
-
 
 /* footer section */
 footer {

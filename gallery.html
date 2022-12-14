@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <!-- icon  -->
+    <link rel="icon" type="image/x-icon" href="img/favicon/favicon.png">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://www.canva.com/">My Favourite Site</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="newsletter.html">News</a></li>
+            <li><a href="def.html">Web Languages</a></li>
+            <li><a href="index.html">Home</a></li>
+            <h5 id="clock">Clock</h5>
+        </ul>
+        <hr>
+    </nav>
+    <header>
+
+    </header>
+    <section>
+        <!-- slideshow section  -->
+        <div class="slideshow-container">
+            <!-- it's goding to near the top -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="./img/gallery/scenery/mountain1.jpg" alt="Nature"
+                style="width:100%;">
+            
+                <div class="text">Nature Mountains</div>
+    
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="./img/gallery/scenery/mountain2.jpg" alt="Nature"
+                style="width:100%;">
+                <div class="text">Snowy Mountains</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="./img/gallery/scenery/sea.jpg" alt="Nature"
+                style="width:100%;">
+                <div class="text">Nature Sea</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="./img/gallery/scenery/forest.jpg" alt="Nature"
+                style="width:100%;">
+                <div class="text">Forest</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="./img/gallery/scenery/waterfall.jpg" alt="Nature"
+                style="width:100%;">
+                <div class="text">Waterfall</div>
+            </div>
+            <a class="prev" onclick="Slides.plusSlides(-1)">&#10094</a>
+            <a class="next" onclick="Slides.plusSlides(1)">&#10095</a>
+        </div>
+        <br>
+        <div id="dots">
+            <span class="dot" onclick="Slides.currentSlide(1)"> </span>
+            <span class="dot" onclick="Slides.currentSlide(2)"> </span>
+            <span class="dot" onclick="Slides.currentSlide(3)"> </span>
+            <span class="dot" onclick="Slides.currentSlide(4)"> </span>
+            <span class="dot" onclick="Slides.currentSlide(5)"> </span>
+        </div>
+        <hr>
+        <!-- advertisement section -->
+        <div class="banner" id="banner">
+            <a href="#"><img id="adBanner" src="img/gallery/ad/spacer.png" alt="Larger Leader Board ad"></a>
+        </div>
+        
+        <!-- moving content section  -->
+        <a id="divAdvert" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img id="sticker" src="img/gallery/sticker.png" alt="click me to visit fun website"></a><p></p>
+        
+
+    </section>
+
+    <footer>
+        <hr>
+        <p>Copyright 2022 | Hongxin</p>
+    </footer>
+        
+        <script src="./js/galleryConstants.js"></script>
+        <script src="./js/galleryUtility.js"></script>
+        <script src="./js/gallery.js"></script>
+        <script src="js/script.js"></script>
+</body>
+</html>
